@@ -1,0 +1,12 @@
+def vertex():
+    print('What is your "a" value')
+    a = int(input())
+    print('What is your "b" value')
+    b = int(input())
+    print('What is your "c" value')
+    c = int(input())
+    h = b / (2 * a)
+    f = (b / 2)*(b / 2)
+    k = c - (a*f)
+    print('This is your quadratic equation in vertex form')
+    print(str(a)+'(x+'+str(h)+')+'+str(k))
